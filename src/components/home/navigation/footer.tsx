@@ -1,6 +1,6 @@
-import Icons from "@/components/global/icons"
+import Icons from "../../global/icons"
 import { Heart } from 'lucide-react'
-import Link from 'next/link'
+import Link from 'react-router-dom';
 
 const Footer = () => {
     return (

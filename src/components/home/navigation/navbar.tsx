@@ -2,7 +2,7 @@ import { Container, Icons } from "@/components";
 import { buttonVariants } from "@/components/ui/button";
 import { UserButton, } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
-import Link from "next/link";
+import Link from "react-router-dom";
 
 const Navbar = async () => {
 
